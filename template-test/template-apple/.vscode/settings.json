@@ -1,0 +1,20 @@
+{
+  "sqltools.connections": [
+    {
+      "database": ".\\db\\front-end-autoconfig.db",
+      "dialect": "SQLite",
+      "name": "test"
+    },
+    {
+      "connectionTimeout": 30,
+      "database": "dashuaibi",
+      "dialect": "MySQL",
+      "name": "mysql",
+      "password": "yang960309-*",
+      "port": 3306,
+      "server": "127.0.0.1",
+      "username": "root"
+    }
+  ],
+  "sqltools.useNodeRuntime": true
+}

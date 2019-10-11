@@ -1,0 +1,13 @@
+{
+  "name": "守望先锋英雄接口文档",
+  "version": "1.0.0",
+  "description": "OverWatch",
+  "title": "OverWatch API", 
+  "url" : "http://172.16.70.44:3000",
+  "sampleUrl": "http://172.16.70.44:3000",
+  "forceLanguage":"zh-cn",
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  }
+}

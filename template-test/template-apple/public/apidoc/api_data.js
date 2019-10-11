@@ -1,0 +1,61 @@
+define({ "api": [
+  {
+    "type": "GET",
+    "url": "/getAllData",
+    "title": "获得某个英雄",
+    "description": "<p>根据名字获得某个英雄</p>",
+    "name": "getAllData",
+    "parameter": {
+      "fields": {
+        "path参数": [
+          {
+            "group": "path参数",
+            "type": "String",
+            "optional": false,
+            "field": "name",
+            "description": "<p>根据英雄名字输出英雄信息，如果为空则输出全部英雄信息</p>"
+          },
+          {
+            "group": "path参数",
+            "type": "Number/String",
+            "optional": false,
+            "field": "id",
+            "description": "<p>根据英雄ID输出英雄信息，如果为空则输出全部英雄信息</p>"
+          },
+          {
+            "group": "path参数",
+            "type": "String",
+            "optional": false,
+            "field": "sex",
+            "description": "<p>根据英雄SEX输出英雄信息，如果为空则输出全部英雄信息</p>"
+          }
+        ]
+      }
+    },
+    "sampleRequest": [
+      {
+        "url": "http://172.16.70.44:3000/getAllData"
+      }
+    ],
+    "group": "Hero",
+    "version": "1.0.0",
+    "filename": "routes/getAllData.js",
+    "groupTitle": "Hero"
+  },
+  {
+    "type": "GET",
+    "url": "/getSqlite",
+    "title": "获取SQLite数据",
+    "description": "<p>获取SQLite数据</p>",
+    "name": "getSqlite",
+    "sampleRequest": [
+      {
+        "url": "http://172.16.70.44:3000/getSqlite"
+      }
+    ],
+    "group": "SQLite",
+    "version": "1.0.0",
+    "filename": "routes/getSqlite.js",
+    "groupTitle": "SQLite"
+  }
+] });

@@ -1,0 +1,21 @@
+{
+  "title": "OverWatch API",
+  "url": "http://172.16.70.44:3000",
+  "name": "守望先锋英雄接口文档",
+  "version": "1.0.0",
+  "description": "OverWatch",
+  "sampleUrl": "http://172.16.70.44:3000",
+  "forceLanguage": "zh-cn",
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  },
+  "defaultVersion": "0.0.0",
+  "apidoc": "0.3.0",
+  "generator": {
+    "name": "apidoc",
+    "time": "2019-09-11T02:35:31.326Z",
+    "url": "http://apidocjs.com",
+    "version": "0.17.7"
+  }
+}
